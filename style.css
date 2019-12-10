@@ -1,0 +1,111 @@
+body{
+	margin: 0; padding: 0;
+	background-color: #eeeeee;
+
+}
+
+img{
+	height: 40.15px;
+	width: 322px;
+	position: fixed;
+}
+
+nav
+{	display: flex;
+	position: fixed;
+	top:15%;
+	left: 85%;
+			
+}
+
+
+h2{
+	text-align: center;
+	margin-top: 4%;
+}
+
+#email{
+	text-align:center;
+	padding-top: 6px;
+}
+
+#form{
+	padding-top:16px;
+	text-align:center;
+}
+
+#submit{
+	padding-top:9px;
+	margin-top:6px;
+	background-color: yellow;
+}
+
+a{
+	text-decoration: none;
+}
+
+.paragraph{
+	text-align: justify;
+	text-align: center;
+}
+
+#video{
+	padding-top: 5px;
+	padding-left: 380px;
+}
+
+@media screen and (max-width: 680px) 
+{
+	
+		body{
+	margin: 0; padding: 0;
+	background-color: #eeeeee;
+
+}
+	img{
+	height: 40.15px;
+	width: 150px;
+	position: fixed;
+}
+
+nav
+{			display: flex;
+			position: fixed;
+			top:6%;
+			left: 44%;
+			padding: 0px 32px 0px 21px;
+}
+
+h2{
+	margin-bottom: 32.917px;
+    padding-top: 65px;
+    padding-left: 28px;
+}
+
+#form{
+	padding-top:0px;
+	text-align:center;
+}
+
+
+p{
+	text-align: left;
+	padding-right:2px; 
+}
+
+#p{	text-align: left;
+	padding-right: 24px;
+	padding-left: 131px;
+}
+
+#video{
+	padding-left: 0px;
+	padding-top:0px;	
+}
+
+iframe{
+	height: 200px;
+	width: 320px;
+	padding-left: 22px;
+}
+}
